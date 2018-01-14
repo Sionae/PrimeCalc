@@ -37,3 +37,6 @@ with open("primes.txt", "r+") as f:
 
     print("Done")
     print("Total number of prime numbers : {}".format(len(primelist)))
+
+#Security closing
+f.close()
